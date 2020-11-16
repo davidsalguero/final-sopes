@@ -1,3 +1,3 @@
 FROM nginx:alpine
-COPY /dist /usr/share/nginx/html
+COPY /dist/angular-free-demo /usr/share/nginx/html
 EXPOSE 80
