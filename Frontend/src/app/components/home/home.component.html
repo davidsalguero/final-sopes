@@ -1,0 +1,23 @@
+<!--Header-->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark elegant-color-dark scrolling-navbar">
+        <img src="assets/logo.png" class="img-fluid" alt="Responsive image" width="100">
+        <pre class="tab">   </pre>
+        <a class="navbar-brand mr-auto" style="font-size: 40px; color: #ffffff"><strong>u</strong>Social</a>
+        <form class="form-inline">
+            <div class="md-form my-0">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-2">
+                        <li class="nav-item dropdown" dropdown>
+                            <a dropdownToggle class="nav-link dropdown-toggle"> {{nombre}} </a>
+                            <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+                                <a class="dropdown-item" (click)="logOut()">Cerrar Sesión</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <img [src]=foto alt="Avatar" class="img-circle" alt="Responsive image" width="70">
+                </div>
+            </div>
+        </form>
+    </nav>
+</header>
