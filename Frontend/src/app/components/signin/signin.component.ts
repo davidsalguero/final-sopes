@@ -36,7 +36,7 @@ export class SigninComponent implements OnInit {
   }
 
   regsitrar() {
-    this.http.post('http://localhost:5000/insertarMongo',
+    this.http.post('http://34.70.108.240:5000/insertarMongo',
         {
           user: this.usuario,
           password: this.password,

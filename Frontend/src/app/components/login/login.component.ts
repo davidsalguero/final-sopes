@@ -30,7 +30,7 @@ export class LoginComponent implements OnInit {
   }
 
   cargarUsuarios() {
-    this.http.get('http://localhost:5000/getUsers')
+    this.http.get('http://34.70.108.240:5000/getUsers')
     .toPromise().then((data: any) => {
       this.usuarios = data;
     });
